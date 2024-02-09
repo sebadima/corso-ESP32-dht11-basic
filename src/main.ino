@@ -4,7 +4,6 @@
 
 #define DHTPIN  13    // Pin #13 dell ESP32
 #define DHTTYPE DHT11 // DHT 11
-
 DHT dht(DHTPIN, DHTTYPE);
 
 float t;
