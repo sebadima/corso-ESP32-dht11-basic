@@ -2,8 +2,8 @@
 #include <Adafruit_Sensor.h>
 #include <DHT.h>
 
-#define DHTPIN 13         // corrisponde al Pin #1 dell ESP8266
-#define DHTTYPE    DHT11 // DHT 11
+#define DHTPIN  13    // Pin #13 dell ESP32
+#define DHTTYPE DHT11 // DHT 11
 
 DHT dht(DHTPIN, DHTTYPE);
 
