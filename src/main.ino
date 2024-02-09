@@ -7,8 +7,8 @@
 
 DHT dht(DHTPIN, DHTTYPE);
 
-float t = 0.0;
-float h = 0.0;
+float t;
+float h;
 
 
 void setup(){
