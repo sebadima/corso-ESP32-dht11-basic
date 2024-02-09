@@ -40,6 +40,7 @@ void loop(){
     }
     else {
       h = newH;
+      Serial.print("Umidità = ");
       Serial.println(h);
     }
 
