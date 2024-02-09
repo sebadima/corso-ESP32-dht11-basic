@@ -30,6 +30,7 @@ void loop(){
     }
     else {
       t = newT;
+      Serial.print("Temperatura = ");
       Serial.println(t);
     }
 
