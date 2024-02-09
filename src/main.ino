@@ -12,14 +12,11 @@ float h = 0.0;
 
 
 void setup(){
-
   Serial.begin(115200);
   dht.begin();
-
 }
 
 void loop(){  
-
     float newT = dht.readTemperature();
     if (isnan(newT)) {
       Serial.println("Non riesco a leggere il sensore DHT!");
